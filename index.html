@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Clickr</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/headers.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body role="application">
+ 
+  <section role="region" class="skin-comms">
+    <header>
+      <h1 class="title"><em><b>Clickr</b></em></h1>
+    </header>
+  </section>
+  <div class="container mainApp">
+    <div class="row">
+      <div class="col-md-12">
+         <h4>
+          <div class="stats"><i class="fa fa-clock-o"></i> Timer: <span id="timer">10</span>
+            <span class="pull-right">
+              <i class="fa fa-hand-o-up"></i> Clicks: <span id="mouse-clicks">0</span>
+            </span>
+          </div>
+
+        </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 clicking-pad">
+        <br><span id="pad-text">Timer starts with your first tap</span><br><br>
+        <button id="restart-icon" class="recommend">Restart</button> 
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/clickr.js"></script>
+ 
+</body>
+</html>
